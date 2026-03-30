@@ -1,3 +1,19 @@
+# Internal Mirror: pdphilip/omniterm 
+
+This repository is an **internal mirror** maintained by OGM for our own use.
+
+- **Mirrored package:** `pdphilip/omniterm` v5.0.4
+- **Original upstream:** `pdphilip/laravel-omniterm` (GitHub repo no longer available)
+- **Reason:** The upstream repository was removed, breaking `composer install`. This mirror preserves the exact version pinned in our lockfile.
+
+## Do not consume this repository
+
+This repo exists solely so OGM's `composer.json` can reference a stable, accessible source for this package version. It is not maintained, will not receive updates, and is not intended for use by anyone outside of OGM devs.
+
+If you are looking for an actively maintained Elasticsearch/OpenSearch package for Laravel, search Packagist for current alternatives.
+
+
+
 <div align="center">
 
 <img src="https://cdn.snipform.io/pdphilip/omniterm/omni-term-banner.png" alt="OmniTerm" />
